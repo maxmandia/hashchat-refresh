@@ -127,4 +127,157 @@ table {
   border-spacing: 0;
 }
 
-/* End of reset */
+/* END OF RESET */
+
+body {
+  background-color: #fffdf5;
+}
+
+h1 {
+  font-family: "Volkhov", serif;
+}
+
+.top-logo {
+  position: static;
+  width: 45px;
+  height: 45px;
+  left: 0px;
+  top: 0px;
+}
+
+.hashchat {
+  position: static;
+  width: 186px;
+  height: 52px;
+  left: 67px;
+  top: 0px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 253px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  gap: 22px;
+}
+
+.discord {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 164px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 125px;
+  height: 35px;
+  left: 209px;
+  top: 0px;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 334px;
+  height: 35px;
+  left: 861px;
+  top: 8.5px;
+  gap: 0px;
+}
+
+.header-right,
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.iphone {
+  display: flex;
+  justify-content: end;
+}
+
+.punchline {
+  position: absolute;
+  width: 545px;
+  height: 292px;
+  left: 122px;
+  top: 220px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 73px;
+}
+
+.punchline b {
+  font-weight: bold;
+}
+
+.sub-punchline .one {
+  position: static;
+  width: 250px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20x;
+  line-height: 24px;
+}
+
+.sub-punchline {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 371px;
+  height: 97px;
+  left: 209px;
+  top: 813px;
+}
