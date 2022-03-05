@@ -281,3 +281,254 @@ p {
   left: 209px;
   top: 813px;
 }
+
+.middle {
+  height: 800px;
+  align-items: center;
+}
+
+.the-beginning {
+  align-self: center;
+  width: 714px;
+  height: 170px;
+  margin-left: 25%;
+  margin-top: 50px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 85px;
+  text-align: center;
+}
+
+.the-beginning b {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 872px;
+  height: 57px;
+  left: 0px;
+  top: 235px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 65px 0px;
+}
+
+.communities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+
+  position: static;
+  width: 219px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+
+  /* Ocean Blue */
+
+  background: #00bfff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 150px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+}
+
+.economics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+
+  position: static;
+  width: 195px;
+  height: 57px;
+  left: 369px;
+  top: 0px;
+
+  /* Ocean Blue */
+
+  border: 1px solid #00bfff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 150px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Ocean Blue */
+
+  color: #00bfff;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+
+  position: static;
+  width: 158px;
+  height: 57px;
+  left: 714px;
+  top: 0px;
+
+  /* Ocean Blue */
+
+  border: 1px solid #00bfff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 150px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Ocean Blue */
+
+  color: #00bfff;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 18%;
+  gap: 122px;
+  padding-bottom: 100px;
+  width: 1022px;
+  height: 400px;
+  left: 0px;
+  top: 363px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  width: 527px;
+  height: 233px;
+  left: 31px;
+  top: 55px;
+
+  position: static;
+  left: 434px;
+  right: 0px;
+  top: 29px;
+  bottom: 29px;
+
+  font-family: ;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 34px;
+}
+
+#name {
+  position: static;
+  width: 75px;
+  height: 27px;
+  left: 0px;
+  top: 0px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#tagline {
+  position: static;
+  width: 475px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+
+  /* DM Serif Display / 40 sp • H3 */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+#description {
+  position: static;
+  width: 527px;
+  height: 108px;
+  left: 0px;
+  top: 76px;
+
+  /* Open Sans / 18 sp • Body 1 */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
